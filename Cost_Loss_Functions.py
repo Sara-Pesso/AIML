@@ -1,6 +1,6 @@
 def MSE(square_errors): #Mean Squared Error (also called quadratic cost/loss)
     return sum(square_errors)/len(square_errors)
-##
+####
 # Saturated neurons: activation function outputs that are very extreme-- causes learning to slow drastically
 
 from math import log
