@@ -69,5 +69,10 @@ plt.hist(np.transpose(a))
 # batch =  activations from previous layer
 # (batch - mean(batch)/stddev(batch))
 
+# After next activation function...
+# gamma = output stddev
+# beta = output mean
+
+# gamma(activations) + beta
 
 
